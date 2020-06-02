@@ -20,4 +20,4 @@ Requirements:
 
 # Screenshot:
 
-![]{https://github.com/soham1024/Chatbot/blob/master/Screenshot%20.png}
+![](https://github.com/soham1024/Chatbot/blob/master/Screenshot%20.png)
