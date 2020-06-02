@@ -37,11 +37,6 @@ class ChatInterface(Frame):
         options = Menu(menu, tearoff=0)
         menu.add_cascade(label="Options", menu=options)
 
-        # username
-       
-
-        
-
         # font
         font = Menu(options, tearoff=0)
         options.add_cascade(label="Font", menu=font)
