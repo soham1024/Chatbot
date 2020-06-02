@@ -58,7 +58,7 @@ class ChatInterface(Frame):
         color_theme.add_command(label="Dark",command=self.color_theme_dark) 
         color_theme.add_command(label="Grey",command=self.color_theme_grey) 
         color_theme.add_command(label="Blue",command=self.color_theme_dark_blue) 
-       
+        color_theme.add_command(label="Blue",command=self.color_theme_pink) 
         color_theme.add_command(label="Torque",command=self.color_theme_turquoise)
         color_theme.add_command(label="Hacker",command=self.color_theme_hacker)
 
@@ -240,22 +240,22 @@ class ChatInterface(Frame):
         self.tl_bg = "#4f4f4f"
         self.tl_bg2 = "#444444"
         self.tl_fg = "#ffffff"
+       
+    # Pink
+    def color_theme_pink(self):
+        self.master.config(bg="#ffc1f2")
+        self.text_frame.config(bg="#ffc1f2")
+        self.text_box.config(bg="#ffe8fa", fg="#000000")
+        self.entry_frame.config(bg="#ffc1f2")
+        self.entry_field.config(bg="#ffe8fa", fg="#000000", insertbackground="#000000")
+        self.send_button_frame.config(bg="#ffc1f2")
+        self.send_button.config(bg="#ffe8fa", fg="#000000", activebackground="#ffe8fa", activeforeground="#000000")
+        self.emoji_button.config(bg="#ffe8fa", fg="#000000", activebackground="#ffe8fa", activeforeground="#000000")
+        self.sent_label.config(bg="#ffc1f2", fg="#000000")
 
-
-    def color_theme_turquoise(self):
-        self.master.config(bg="#003333")
-        self.text_frame.config(bg="#003333")
-        self.text_box.config(bg="#669999", fg="#FFFFFF")
-        self.entry_frame.config(bg="#003333")
-        self.entry_field.config(bg="#669999", fg="#FFFFFF", insertbackground="#FFFFFF")
-        self.send_button_frame.config(bg="#003333")
-        self.send_button.config(bg="#669999", fg="#FFFFFF", activebackground="#669999", activeforeground="#FFFFFF")
-        self.emoji_button.config(bg="#669999", fg="#FFFFFF", activebackground="#669999", activeforeground="#FFFFFF")
-        self.sent_label.config(bg="#003333", fg="#FFFFFF")
-
-        self.tl_bg = "#669999"
-        self.tl_bg2 = "#003333"
-        self.tl_fg = "#FFFFFF"    
+        self.tl_bg = "#ffe8fa"
+        self.tl_bg2 = "#ffc1f2"
+        self.tl_fg = "#000000"
 
     # Blue
     def color_theme_dark_blue(self):
