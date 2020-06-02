@@ -21,3 +21,5 @@ Requirements:
 # Screenshot:
 
 ![](https://github.com/soham1024/Chatbot/blob/master/Screenshot%20.png)
+
+you can use different themes, different fonts.
