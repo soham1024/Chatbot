@@ -16,3 +16,8 @@ Requirements:
 4. threading
 5. nltk
 6. numpy
+
+
+# Screenshot:
+
+![]{https://github.com/soham1024/Chatbot/blob/master/Screenshot%20.png}
