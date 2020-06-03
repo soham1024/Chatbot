@@ -87,7 +87,7 @@ def response(user_response):
     flat.sort()
     req_tfidf = flat[-2]
     if(req_tfidf==0):
-        robo_response=robo_response+"I am sorry! I don't understand you"
+        robo_response=robo_response+"I am sorry! Right now I don't know the answer. Please check google to find this answer"
         return robo_response
     else:
         robo_response = robo_response+sent_tokens[idx]
@@ -105,7 +105,7 @@ def responseone(user_response):
     flat.sort()
     req_tfidf = flat[-2]
     if(req_tfidf==0):
-        robo_response=robo_response+"I am sorry! I don't understand you"
+        robo_response=robo_response+"I am sorry! Right now I don't know the answer. Please check google to find this answer"
         return robo_response
     else:
         robo_response = robo_response+sent_tokensone[idx]
@@ -136,7 +136,7 @@ def chat(user_response):
         elif(user_response=='what can you do?' or user_response=='what do you do?'):
             flag=False
             return "You can ask me questions about python"
-        elif(user_response=='where can I learn python?' or user_response=='where can I learn python'):
+        elif(user_response=='where can I learn python?' or user_response=='where can I learn python' or user_response=='how can I learn python?') or user_response=='how can I learn python':
             flag=False
             return "https://www.geeksforgeeks.org/python-programming-language/"
         elif(basicM(user_response)!=None):
