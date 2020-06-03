@@ -197,7 +197,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#FFFFFF", fg="#000000", insertbackground="#000000")
         self.send_button_frame.config(bg="#EEEEEE")
         self.send_button.config(bg="#FFFFFF", fg="#000000", activebackground="#FFFFFF", activeforeground="#000000")
-        self.emoji_button.config(bg="#FFFFFF", fg="#000000", activebackground="#FFFFFF", activeforeground="#000000")
         self.sent_label.config(bg="#EEEEEE", fg="#000000")
 
         self.tl_bg = "#FFFFFF"
@@ -213,7 +212,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#212121", fg="#FFFFFF", insertbackground="#FFFFFF")
         self.send_button_frame.config(bg="#2a2b2d")
         self.send_button.config(bg="#212121", fg="#FFFFFF", activebackground="#212121", activeforeground="#FFFFFF")
-        self.emoji_button.config(bg="#212121", fg="#FFFFFF", activebackground="#212121", activeforeground="#FFFFFF")
         self.sent_label.config(bg="#2a2b2d", fg="#FFFFFF")
 
         self.tl_bg = "#212121"
@@ -229,7 +227,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#4f4f4f", fg="#ffffff", insertbackground="#ffffff")
         self.send_button_frame.config(bg="#444444")
         self.send_button.config(bg="#4f4f4f", fg="#ffffff", activebackground="#4f4f4f", activeforeground="#ffffff")
-        self.emoji_button.config(bg="#4f4f4f", fg="#ffffff", activebackground="#4f4f4f", activeforeground="#ffffff")
         self.sent_label.config(bg="#444444", fg="#ffffff")
 
         self.tl_bg = "#4f4f4f"
@@ -245,7 +242,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#ffe8fa", fg="#000000", insertbackground="#000000")
         self.send_button_frame.config(bg="#ffc1f2")
         self.send_button.config(bg="#ffe8fa", fg="#000000", activebackground="#ffe8fa", activeforeground="#000000")
-        self.emoji_button.config(bg="#ffe8fa", fg="#000000", activebackground="#ffe8fa", activeforeground="#000000")
         self.sent_label.config(bg="#ffc1f2", fg="#000000")
 
         self.tl_bg = "#ffe8fa"
@@ -261,7 +257,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#1c2e44", fg="#FFFFFF", insertbackground="#FFFFFF")
         self.send_button_frame.config(bg="#263b54")
         self.send_button.config(bg="#1c2e44", fg="#FFFFFF", activebackground="#1c2e44", activeforeground="#FFFFFF")
-        self.emoji_button.config(bg="#1c2e44", fg="#FFFFFF", activebackground="#1c2e44", activeforeground="#FFFFFF")
         self.sent_label.config(bg="#263b54", fg="#FFFFFF")
 
         self.tl_bg = "#1c2e44"
@@ -280,7 +275,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#669999", fg="#FFFFFF", insertbackground="#FFFFFF")
         self.send_button_frame.config(bg="#003333")
         self.send_button.config(bg="#669999", fg="#FFFFFF", activebackground="#669999", activeforeground="#FFFFFF")
-        self.emoji_button.config(bg="#669999", fg="#FFFFFF", activebackground="#669999", activeforeground="#FFFFFF")
         self.sent_label.config(bg="#003333", fg="#FFFFFF")
 
         self.tl_bg = "#669999"
@@ -296,7 +290,6 @@ class ChatInterface(Frame):
         self.entry_field.config(bg="#0F0F0F", fg="#33FF33", insertbackground="#33FF33")
         self.send_button_frame.config(bg="#0F0F0F")
         self.send_button.config(bg="#0F0F0F", fg="#FFFFFF", activebackground="#0F0F0F", activeforeground="#FFFFFF")
-        self.emoji_button.config(bg="#0F0F0F", fg="#FFFFFF", activebackground="#0F0F0F", activeforeground="#FFFFFF")
         self.sent_label.config(bg="#0F0F0F", fg="#33FF33")
 
         self.tl_bg = "#0F0F0F"
