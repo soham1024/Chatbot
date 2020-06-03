@@ -10,7 +10,7 @@ It is made of tinkter GUI.
 but both of them are different files. you can not change the name to make it work.
 
 Requirements:
-1. python 3+
+1. python 3.6+
 2. tkinter
 3. pyttsx3
 4. threading
