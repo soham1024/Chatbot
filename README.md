@@ -1,6 +1,6 @@
 # Chatbot
 Know basics of python from this pybot
-
+Run chat_gui.py to start 
 
 # chat_gui.py
 It is made of tinkter GUI. 
