@@ -86,7 +86,7 @@ class ChatInterface(Frame):
         self.entry_field = Entry(self.entry_frame, bd=1, justify=LEFT)
         self.entry_field.pack(fill=X, padx=6, pady=6, ipady=3)
 
-        # frame containing send button and emoji button
+        # frame containing send button
         self.send_button_frame = Frame(self.master, bd=0)
         self.send_button_frame.pack(fill=BOTH)
 
