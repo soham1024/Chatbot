@@ -23,3 +23,7 @@ Requirements:
 ![](https://github.com/soham1024/Chatbot/blob/master/Screenshot%20.png)
 
 you can use different themes, different fonts.
+
+This chatbot can speak if you are not getting any sound:
+*  if you ar using linux: sudo apt-get update && sudo apt-get install espeak
+*  if you are using ubuntu: sudo apt install libespeak1
