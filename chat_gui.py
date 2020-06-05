@@ -102,18 +102,18 @@ class ChatInterface(Frame):
                 
 
     def playResponce(self,responce):
-        x=pyttsx3.init()        
+        engine=pyttsx3.init()        
         en_voice_id="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0"
         li = []
         if len(responce) > 100:
             if responce.find('--') == -1:
                 b = responce.split('--')
                  
-        x.setProperty('rate',150)
-        x.setProperty('volume',0.7)
-        x.setProperty('voice', en_voice_id)
-        x.say(responce)
-        x.runAndWait()
+        engine.setProperty('rate',150)
+        engine.setProperty('volume',0.7)
+        engine.setProperty('voice', en_voice_id)
+        engine.say(responce)
+        engine.runAndWait()
         
         
     def last_sent_label(self, date):
