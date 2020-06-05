@@ -27,3 +27,8 @@ you can use different themes, different fonts.
 This chatbot can speak if you are not getting any sound:
 *  if you ar using linux: sudo apt-get update && sudo apt-get install espeak
 *  if you are using ubuntu: sudo apt install libespeak1
+
+Other than that, you can use
+sapi5 - SAPI5 on Windows
+nsss - NSSpeechSynthesizer on Mac OS X
+like: pyttsx3.init(driverName='sapi5') 
