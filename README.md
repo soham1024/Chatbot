@@ -29,6 +29,7 @@ This chatbot can speak if you are not getting any sound:
 *  if you are using ubuntu: sudo apt install libespeak1
 
 Other than that, you can use
-sapi5 - SAPI5 on Windows
-nsss - NSSpeechSynthesizer on Mac OS X
+* sapi5 - SAPI5 on Windows
+* nsss - NSSpeechSynthesizer on Mac OS X
+
 like: pyttsx3.init(driverName='sapi5') 
