@@ -53,7 +53,7 @@ class ChatInterface(Frame):
         color_theme.add_command(label="Dark",command=self.color_theme_dark) 
         color_theme.add_command(label="Grey",command=self.color_theme_grey) 
         color_theme.add_command(label="Blue",command=self.color_theme_dark_blue) 
-        color_theme.add_command(label="Blue",command=self.color_theme_pink) 
+        color_theme.add_command(label="Pink",command=self.color_theme_pink) 
         color_theme.add_command(label="Torque",command=self.color_theme_turquoise)
         color_theme.add_command(label="Hacker",command=self.color_theme_hacker)
 
