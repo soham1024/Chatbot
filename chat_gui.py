@@ -10,6 +10,7 @@ saved_username = ["You"]
 window_size="500x500"
 
 class ChatInterface(Frame):
+    #building frame
 
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -102,6 +103,7 @@ class ChatInterface(Frame):
                 
 
     def playResponce(self,responce):
+        # Getting audio response from chatbot
         engine=pyttsx3.init()        
         en_voice_id="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0"
         li = []
@@ -117,7 +119,7 @@ class ChatInterface(Frame):
         
         
     def last_sent_label(self, date):
-
+        # last sent record collection
         try:
             self.sent_label.destroy()
         except AttributeError:
@@ -127,6 +129,7 @@ class ChatInterface(Frame):
         self.sent_label.pack(side=LEFT, fill=X, padx=3)
 
     def clear_chat(self):
+        #Clears text from the chat
         self.text_box.config(state=NORMAL)
         self.last_sent_label(date="No messages sent.")
         self.text_box.delete(1.0, END)
@@ -134,15 +137,19 @@ class ChatInterface(Frame):
         self.text_box.config(state=DISABLED)
 
     def chatexit(self):
+        #exit from the chatbot
         exit()
 
     def msg(self):
+        #chatbot info
         tkinter.messagebox.showinfo("PyBOT v1.0",'PyBOT is a chatbot for answering basic python queries\nIt can answer questions regarding python language for new learners')
 
     def about(self):
+        #about chatbot
         tkinter.messagebox.showinfo("PyBOT Developers","Soham Mukherjee")
     
     def send_message_insert(self, message):
+        #message field
         user_input = self.entry_field.get()
         pr1 = "User : " + user_input + "\n"
         self.text_box.configure(state=NORMAL)
@@ -165,7 +172,7 @@ class ChatInterface(Frame):
 
 
         
-        
+    # fonts   
     def font_change_default(self):
         self.text_box.config(font="Verdana 10")
         self.entry_field.config(font="Verdana 10")
